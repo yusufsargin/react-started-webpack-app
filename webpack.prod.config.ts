@@ -8,7 +8,7 @@ const config: Configuration = {
   mode: "production",
   entry: "./src/index.tsx",
   output: {
-    path: path.resolve(__dirname, "build"),
+    path: path.resolve(__dirname, "build/app1"),
     filename: "[name].[contenthash].js",
     publicPath: "",
   },
